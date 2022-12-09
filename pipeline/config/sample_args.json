@@ -1,0 +1,14 @@
+{
+    "model_name": "whisper-base-uncased",
+    "tokenizer_name": "whisper-base-uncased",
+    "data_dir": "/path/to/data",
+    "output_dir": "/path/to/outputs",
+    "max_seq_length": 256,
+    "train_batch_size": 16,
+    "eval_batch_size": 16,
+    "learning_rate": 5e-5,
+    "num_train_epochs": 5,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true
+}
