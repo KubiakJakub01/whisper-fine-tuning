@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 
 import torch
+from datasets import load_dataset, interleave_datasets
 
 @dataclass
 class DataCollatorSpeechSeq2SeqWithPadding:
